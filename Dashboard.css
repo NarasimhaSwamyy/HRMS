@@ -1,0 +1,22 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    display: flex;
+  }
+  
+  .dashboard-content {
+    flex: 1; /* This makes the dashboard-content take up the remaining space */
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://res.cloudinary.com/dd70o0ihc/image/upload/v1704340682/human-resources-concept-with-hand_1_srhu21.jpg");
+    background-size: cover; /* This will make the background image cover the entire element */
+    background-position: center; /* This will center the background image */
+  }
+  
+  .main-content {
+    flex: 1; /* This makes the main-content take up the remaining space within dashboard-content */
+    overflow: auto; /* This allows the content to scroll if it overflows */
+  }
+  
+  /* Add any other styling as needed */
+  

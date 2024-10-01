@@ -1,0 +1,28 @@
+/* Tabs.css */
+.category-content {
+    padding: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+  }
+  
+  .tab {
+    padding: 10px;
+    margin-right: 0px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #eee;
+    }
+  }
+  
+  /* Additional styling for the tab content */
+  .tab-content {
+    margin-top: 0px;
+  }
+  

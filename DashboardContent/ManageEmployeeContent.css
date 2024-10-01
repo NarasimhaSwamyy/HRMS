@@ -1,0 +1,90 @@
+/* src/DashboardContent/ManageEmployeeContent.css */
+
+.add-employee-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.employee-list {
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color: black; /* Set text color to black */
+}
+
+th {
+  background-color: #4caf50;
+  color: black;
+}
+
+/* Style buttons */
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin:3px;
+}
+
+/* Style edit button */
+.edit-button {
+  background-color: orange;
+  color: white;
+}
+
+/* Style delete button */
+.delete-button {
+  background-color: red;
+  color: white;
+}
+
+/* Style form */
+form {
+  margin-top: 20px;
+}
+
+/* Style form input fields */
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Style form select */
+select {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Style form submit button */
+.submit-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style image */
+img {
+  max-width: 50px;
+  max-height: 50px;
+}

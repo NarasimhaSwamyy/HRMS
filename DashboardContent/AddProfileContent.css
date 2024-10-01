@@ -1,0 +1,46 @@
+/* AddProfileContent.css */
+.profile-container {
+  width:80vw;
+  margin:0px; /* Adjust the margin to move the content to the left */
+}
+
+.tabs-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px 5px 0 0;
+  margin-right: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+.tab:hover {
+  background-color: #e0e0e0;
+}
+
+.tab.active {
+  background-color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.more-tabs-arrow {
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 0 0 5px 5px;
+  margin-left: 5px;
+}
+
+/* Styling for the content area */
+.tab-content {
+  border: 1px solid #ccc;
+  border-radius: 0 5px 5px 5px;
+  padding: 20px;
+  margin-top: -1px; /* Ensure content area is below the active tab border */
+}
